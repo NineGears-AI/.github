@@ -5,7 +5,7 @@
 **Pioneering Autonomous Mobility with Artificial Intelligence**
 
 [![Institution - ISEP](https://img.shields.io/badge/Institution-ISEP-005596?style=for-the-badge&logo=institution)](https://www.isep.ipp.pt/)
-[![Course - MEIA](https://img.shields.io/badge/Master-MEIA-FF6B6B?style=for-the-badge)](https://www.isep.ipp.pt/Course/Course/468)
+[![Course - MEIA](https://img.shields.io/badge/Master-MEIA-FF6B6B?style=for-the-badge)](https://www.isep.ipp.pt/Course/Course/462)
 [![Focus - Autonomous Vehicles](https://img.shields.io/badge/Focus-Autonomous_Vehicles-2ea44f?style=for-the-badge&logo=audi)](https://github.com/NineGearsAI)
 
 <p align="center">
@@ -75,7 +75,7 @@ We are a group of passionate MEIA students from the **Instituto Superior de Enge
 ## 📬 Contact & Connect
 
 - 🏫 **Institution:** [ISEP - Instituto Superior de Engenharia do Porto](https://www.isep.ipp.pt)
-- 🎓 **Degree:** [Mestrado em Engenharia de Inteligência Artificial (MEIA)](https://www.isep.ipp.pt/Course/Course/468)
+- 🎓 **Degree:** [Mestrado em Engenharia de Inteligência Artificial (MEIA)](https://www.isep.ipp.pt/Course/Course/462)
 
 <div align="center">
   <sub>Built with passion and gear shifts by <b>NineGearsAI</b> ⚙️</sub>
