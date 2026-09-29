@@ -26,33 +26,25 @@ As graduate students at **ISEP**, our goal is to bridge the gap between theoreti
 
 ## 🎯 Core Research & Development Pillars
 
-We structure our work around the core stack of automated driving systems:
-┌──────────────────────┐
-                  │   Sensor Ingestion   │
-                  │ (Cameras, LiDAR, IMU)│
-                  └──────────┬───────────┘
-                             ▼
-                  ┌──────────────────────┐
-                  │ Perception & Fusion  │
-                  │ (YOLO, BEV, Kalman)  │
-                  └──────────┬───────────┘
-                             ▼
-                  ┌──────────────────────┐
-                  │ Localization & SLAM  │
-                  │  (Point Clouds, GPS) │
-                  └──────────┬───────────┘
-                             ▼
-                  ┌──────────────────────┐
-                  │ Planning & Decision  │
-                  │ (Behavior Trees, RL) │
-                  └──────────┬───────────┘
-                             ▼
-                  ┌──────────────────────┐
-                  │    Motion Control    │
-                  │    (MPC, PID, Pure)  │
-                  └──────────────────────┘- 👁️ **Perception & Sensor Fusion:** Multi-camera object detection, 3D LiDAR point cloud segmentation, and Kalman-filter-based tracking.
+We structure our work around the complete autonomous driving software stack:
+
+```mermaid
+flowchart TD
+    A["📡 Sensor Ingestion<br>(Cameras, LiDAR, IMU, GNSS)"] --> B["👁️ Perception & Fusion<br>(Object Detection, BEV, Kalman Filters)"]
+    B --> C["🗺️ Localization & SLAM<br>(Point Clouds, HD Maps, State Estimation)"]
+    C --> D["🧠 Planning & Decision<br>(Behavior Trees, Motion Planners, RL)"]
+    D --> E["🎮 Motion Control<br>(MPC, PID, Pure Pursuit)"]
+
+    style A fill:#1f2937,stroke:#3b82f6,stroke-width:2px,color:#fff
+    style B fill:#1f2937,stroke:#3b82f6,stroke-width:2px,color:#fff
+    style C fill:#1f2937,stroke:#3b82f6,stroke-width:2px,color:#fff
+    style D fill:#1f2937,stroke:#3b82f6,stroke-width:2px,color:#fff
+    style E fill:#1f2937,stroke:#3b82f6,stroke-width:2px,color:#fff
+```
+
+- 👁️ **Perception & Sensor Fusion:** Multi-camera object detection, 3D LiDAR point cloud processing, and multi-object tracking.
 - 🗺️ **Localization & Mapping (SLAM):** High-definition mapping and robust state estimation in dynamic environments.
-- 🧠 **Behavioral Decision & Motion Planning:** Deep Reinforcement Learning (DRL), path finding ($A^*$, Hybrid $A^*$), and trajectory optimization.
+- 🧠 **Behavioral Decision & Motion Planning:** Deep Reinforcement Learning (DRL), path planning (`A*`, `Hybrid A*`), and trajectory optimization.
 - 🎮 **Simulation & Testing:** End-to-end evaluation using simulated testbeds like **CARLA** and **Gazebo**.
 
 ---
@@ -70,7 +62,8 @@ We structure our work around the core stack of automated driving systems:
 ---
 
 ## 🚀 Active Repositories & Projects
-
+- **[INVINIA](https://github.com/NineGears-AI/invinia)** — Investigação e Inovação em Inteligência Artificial.
+- **[AEPSOEIA](https://github.com/NineGears-AI/aspsoeia)** - Aspetos Sociais e Éticos em Inteligência Artificial
 ---
 
 ## 👥 The Team
